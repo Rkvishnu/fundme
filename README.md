@@ -1,47 +1,61 @@
-## Getting Started
 
-Create a project using this example:
+# FUND ME
+
+ This is a simple Crowdfunding project built in Reactjs and Tailwind css with help of thirdweb.
+
+ thirdweb is an open-source project where we can run deploy and interact with our smart contract.
+
+
+##Features
+ 
+
+#1-Homepage 
+
+homepagewe can find all the campaigns that have been created.
+
+![App Screenshot](https://github.com/Rkvishnu/fundme/blob/main/fundraiser-web3/screenshots/home.png?raw=true)
+
+#2-Profile page
+
+profile page where the campaigns that are created by any user will be visible
+
+![App Screenshot](https://github.com/Rkvishnu/fundme/blob/main/fundraiser-web3/screenshots/created-campaign.png?raw=true)
+
+#3-Campain Details page 
+A page where we can see the details of the a single campaign like campaign address, total raised money, story and days left
+
+![App Screenshot](https://github.com/Rkvishnu/fundme/blob/main/fundraiser-web3/screenshots/campaign-details.png?raw=true)
+
+#4-Create Camapaign page 
+
+A page where user can create their own campaign by providing some details
+
+![App Screenshot](https://github.com/Rkvishnu/fundme/blob/main/fundraiser-web3/screenshots/create-page.png?raw=true)
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npx thirdweb create --contract --template hardhat-javascript-starter
+  git clone https://github.com/Rkvishnu/fundme.git
 ```
 
-You can start editing the page by modifying `contracts/Contract.sol`.
-
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
-
-## Building the project
-
-After any changes to the contract, run:
+Go to the project directory
 
 ```bash
-npm run build
-# or
-yarn build
+  cd fundme/fundraiser-web3
 ```
 
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
-
-## Deploying Contracts
-
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
+Install dependencies
 
 ```bash
-npm run deploy
-# or
-yarn deploy
+  npm install
 ```
 
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
+Start the server
 
 ```bash
-npm run release
-# or
-yarn release
+  npm run dev
 ```
 
-## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
