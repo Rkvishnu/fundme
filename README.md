@@ -6,7 +6,7 @@
  thirdweb is an open-source project where we can run deploy and interact with our smart contract.
 
 
-##Features
+#Features
  
 
 #1-Homepage 
@@ -32,7 +32,7 @@ A page where user can create their own campaign by providing some details
 
 ![App Screenshot](https://github.com/Rkvishnu/fundme/blob/main/fundraiser-web3/screenshots/create-page.png?raw=true)
 
-## Run Locally
+# Run Locally
 
 Clone the project
 
